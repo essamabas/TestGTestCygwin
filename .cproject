@@ -18,7 +18,7 @@
 							<targetPlatform id="cdt.managedbuild.target.gnu.platform.cygwin.exe.debug.2111088066" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.cygwin.exe.debug"/>
 							<builder buildPath="${workspace_loc:/TestGTestCygwin}/Debug" id="org.eclipse.cdt.build.core.internal.builder.1841326580" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
 							<tool id="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug.1284960459" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.cygwin.exe.debug">
-								<option id="gnu.both.asm.option.include.paths.692223236" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths"/>
+								<option id="gnu.both.asm.option.include.paths.692223236" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath"/>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.540441226" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.archiver.cygwin.base.232242364" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.cygwin.base"/>
@@ -27,8 +27,8 @@
 								<option id="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level.1807982619" name="Debug Level" superClass="gnu.cpp.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.dialect.std.523048435" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" value="gnu.cpp.compiler.dialect.default" valueType="enumerated"/>
 								<option id="gnu.cpp.compiler.option.include.paths.85477776" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tools/googletest-release-1.7.0/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTestCygwin/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;../Tools\googletest-release-1.7.0\include&quot;"/>
 								</option>
 								<option id="gnu.cpp.compiler.option.other.other.1868015300" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 " valueType="string"/>
 								<option id="gnu.cpp.compiler.option.debugging.codecov.751377246" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.cpp.compiler.option.debugging.codecov" value="true" valueType="boolean"/>
@@ -39,8 +39,8 @@
 								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.cygwin.exe.debug.option.optimization.level.2042710905" name="Optimization Level" superClass="gnu.c.compiler.cygwin.exe.debug.option.optimization.level" valueType="enumerated"/>
 								<option id="gnu.c.compiler.cygwin.exe.debug.option.debugging.level.416405458" name="Debug Level" superClass="gnu.c.compiler.cygwin.exe.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.include.paths.1890738114" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tools/googletest-release-1.7.0/include}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTestCygwin/src}&quot;"/>
+									<listOptionValue builtIn="false" value="../Tools/googletest-release-1.7.0/include"/>
 								</option>
 								<option id="gnu.c.compiler.option.dialect.std.698016802" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
 								<option id="gnu.c.compiler.option.debugging.codecov.420838755" name="Generate gcov information (-ftest-coverage -fprofile-arcs)" superClass="gnu.c.compiler.option.debugging.codecov" value="true" valueType="boolean"/>
@@ -50,7 +50,7 @@
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug.1572407731" name="Cygwin C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.cygwin.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug.1715421610" name="Cygwin C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.cygwin.exe.debug">
 								<option id="gnu.cpp.link.option.userobjs.718645250" name="Other objects" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/Tools/googletest-release-1.7.0/make/libgtest.a}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;Tools\googletest-release-1.7.0\make\libgtest.a&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.flags.1511716938" name="Linker flags" superClass="gnu.cpp.link.option.flags" value="" valueType="string"/>
 								<option id="gnu.cpp.link.option.debugging.gprof.1290343064" name="Generate gprof information (-pg)" superClass="gnu.cpp.link.option.debugging.gprof" value="true" valueType="boolean"/>
@@ -122,6 +122,8 @@
 									<listOptionValue builtIn="false" value="&quot;D:\TEMP\Apps\eclipse-cpp-mars\googletest\googletest\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;D:\TEMP\Apps\eclipse-cpp-mars\googletest-release-1.7.0\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTest/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTestCygwin/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTestCygwin/Tools/googletest-release-1.7.0/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1692296222" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
 							</tool>
@@ -136,6 +138,8 @@
 									<listOptionValue builtIn="false" value="&quot;D:\TEMP\Apps\eclipse-cpp-mars\googletest\googletest\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;D:\TEMP\Apps\eclipse-cpp-mars\googletest-release-1.7.0\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTest/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTestCygwin/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTestCygwin/Tools/googletest-release-1.7.0/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.307997495" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin"/>
 							</tool>
@@ -149,6 +153,8 @@
 									<listOptionValue builtIn="false" value="&quot;D:\TEMP\Apps\eclipse-cpp-mars\googletest\googletest\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;D:\TEMP\Apps\eclipse-cpp-mars\googletest-release-1.7.0\include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTest/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTestCygwin/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/TestGTestCygwin/Tools/googletest-release-1.7.0/include}&quot;"/>
 								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.892674710" superClass="cdt.managedbuild.tool.gnu.c.compiler.input.cygwin"/>
 							</tool>
@@ -174,21 +180,6 @@
 	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 		<project id="TestGTest.cdt.managedbuild.target.gnu.cygwin.exe.1515066196" name="Executable" projectType="cdt.managedbuild.target.gnu.cygwin.exe"/>
 	</storageModule>
-	<storageModule moduleId="scannerConfiguration">
-		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1132934549;cdt.managedbuild.config.gnu.cygwin.exe.release.1132934549.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.2026955910;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.307997495">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1132934549;cdt.managedbuild.config.gnu.cygwin.exe.release.1132934549.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.577716439;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.892674710">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.1084177835;cdt.managedbuild.config.gnu.cygwin.exe.debug.1084177835.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.753588681;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1913588208">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.1084177835;cdt.managedbuild.config.gnu.cygwin.exe.debug.1084177835.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.1609717732;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.58930525">
-			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
-		</scannerConfigBuildInfo>
-	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
 	<storageModule moduleId="refreshScope" versionNumber="2">
 		<configuration configurationName="Release">
@@ -197,5 +188,20 @@
 		<configuration configurationName="Debug">
 			<resource resourceType="PROJECT" workspacePath="/TestGTest"/>
 		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.1084177835;cdt.managedbuild.config.gnu.cygwin.exe.debug.1084177835.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.debug.753588681;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.1913588208">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1132934549;cdt.managedbuild.config.gnu.cygwin.exe.release.1132934549.;cdt.managedbuild.tool.gnu.cpp.compiler.cygwin.exe.release.2026955910;cdt.managedbuild.tool.gnu.cpp.compiler.input.cygwin.307997495">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.release.1132934549;cdt.managedbuild.config.gnu.cygwin.exe.release.1132934549.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.release.577716439;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.892674710">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.cygwin.exe.debug.1084177835;cdt.managedbuild.config.gnu.cygwin.exe.debug.1084177835.;cdt.managedbuild.tool.gnu.c.compiler.cygwin.exe.debug.1609717732;cdt.managedbuild.tool.gnu.c.compiler.input.cygwin.58930525">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
 	</storageModule>
 </cproject>
