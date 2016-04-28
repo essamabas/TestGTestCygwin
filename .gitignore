@@ -28,5 +28,5 @@
 *.app
 
 # Eclispe directories
-Debug
+#Debug
 Release
