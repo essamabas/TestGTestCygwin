@@ -9,6 +9,6 @@ TEST (SquareRootTest, PositiveNos) {
 }
 
 TEST (SquareRootTest, ZeroAndNegativeNos) {
-    ASSERT_EQ (0.0, SquareRoot(0.0));
-    ASSERT_EQ (-1, SquareRoot(-22.0));
+    ASSERT_EQ (2.0, SquareRoot(4.0));
+    ASSERT_EQ (4.0, SquareRoot(16.0));
 }
