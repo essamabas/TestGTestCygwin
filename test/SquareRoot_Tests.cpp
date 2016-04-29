@@ -5,7 +5,7 @@
 TEST (SquareRootTest, PositiveNos) {
     EXPECT_EQ (18.0, SquareRoot(324.0));
     EXPECT_EQ (25.4, SquareRoot(645.16));
-    EXPECT_EQ (50.3321, SquareRoot(2533.310224));
+    EXPECT_EQ (50.332, SquareRoot(2533.310224));
 }
 
 TEST (SquareRootTest, ZeroAndNegativeNos) {
