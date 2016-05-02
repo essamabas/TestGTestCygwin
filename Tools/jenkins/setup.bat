@@ -1,5 +1,4 @@
 echo "Add Cygwin and Python to PATH"
-SET PATH=%PATH%;C:\Users\%USERNAME%\MyData\Installed\PortableApps\PortableApps\PortablePython2.7.6.1\App;C:\Users\%USERNAME%\MyData\Installed\cygwin\bin
 echo %PATH%
 echo "Compile googletest and Link Library to PATH TODO"
 cd ..
