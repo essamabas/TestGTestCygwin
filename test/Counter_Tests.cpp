@@ -9,7 +9,7 @@
 
 #include "Counter.hpp"
 
-TEST(Counter, Increment) {
+TEST(CounterTest, Increment) {
       Counter c;
       EXPECT_EQ(0, c.Increment());
       EXPECT_EQ(1, c.Increment());
