@@ -15,3 +15,5 @@ echo "Run Compiled Application"
 TestGTestCygwin.exe --gtest_output=xml:coverage.junit.xml
 echo "Generate Coverage Report"
 python gcovr -x -r .. -f".*src\\.*" > coverage.xml
+echo "Move files to build-number Report"
+copy *.xml ..\..\builds\%BUILD_NUMBER%\workspace-files\*.xml
